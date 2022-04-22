@@ -1,0 +1,11 @@
+name = "julinet"
+uuid = "7d9ef35c-eee5-4917-9c29-5e8302916d53"
+authors = ["juzikaster <izax4321@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Debugger = "31a5f54b-26ea-5ae9-a837-f05ce5417438"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
