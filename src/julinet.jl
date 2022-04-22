@@ -1,5 +1,6 @@
 module julinet
 
-greet() = print("Hello World!")
+include("Server.jl");
+using  .Server
 
 end # module
