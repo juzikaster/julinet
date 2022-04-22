@@ -2,6 +2,8 @@ module Server
 
 using HTTP
 
+export start
+
 function start(host::String, port::Int)
     HTTP.listen(host, port) do http
         @show http.message
