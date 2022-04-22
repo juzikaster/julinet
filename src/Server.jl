@@ -4,7 +4,7 @@ using HTTP
 
 export start
 
-function start(host::String, port::Int)
+function start(host::String = "127.0.0.1", port::Int = 8081)
     HTTP.listen(host, port) do http
         @show http.message
         @show HTTP.header(http, "Content-Type")

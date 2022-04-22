@@ -3,6 +3,6 @@ module julinet
 include("Server.jl");
 using .Server
 
-const start = Server.start(host, port)
+const start = Server.start()
 
 end # module
