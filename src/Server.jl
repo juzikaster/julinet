@@ -22,7 +22,7 @@ end
 
 function route!(route::String)
     if route !== nothing
-        routes.push!(route)
+        push!(routes, route)
     else
         @info "ERROR"
     end
