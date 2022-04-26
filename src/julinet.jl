@@ -6,7 +6,7 @@ using .Server
 
 start() = Server.start()
 route!(route::String) = Server.route!(route)
-show_routes() = Server.show_routes
+show_routes() = Server.show_routes()
 
 
 end # module
